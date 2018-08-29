@@ -1,0 +1,100 @@
+{block #title}Predplatné{/block}
+
+{block #content}
+
+<div class="row">
+    <hr>
+
+    <div class="col-md-12">
+        <div class="container">
+            <div class='col-md-5'>
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker6'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-5'>
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker7'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                function setDates()
+                {
+                    var start = $('#datetimepicker6').data("DateTimePicker").date().format('YYYY-MM-DD')
+                    var end = $('#datetimepicker7').data("DateTimePicker").date().format('YYYY-MM-DD')
+                    window.location.href = '/dashboard/dashboard/stats?start_time=' + start + '&end_time=' + end;
+                }
+            </script>
+            <div>
+                <button onclick="setDates();" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Show</button>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+
+            function setParams()
+            {
+                setGetParameter('')
+            }
+            $(function () {
+                $('#datetimepicker6').datetimepicker({
+                    format: 'YYYY-MM-DD',
+                    defaultDate: {$startTime}
+                });
+                $('#datetimepicker7').datetimepicker({
+                    useCurrent: false, //Important! See issue #1075
+                    format: 'YYYY-MM-DD',
+                    maxDate: moment(),
+                    defaultDate: {$endTime}
+                });
+                $("#datetimepicker6").on("dp.change", function (e) {
+                    $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+                });
+                $("#datetimepicker7").on("dp.change", function (e) {
+                    $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+                });
+            });
+
+            function setGetParameter(paramName, paramValue)
+            {
+                var url = window.location.href;
+                if (url.indexOf(paramName + "=") >= 0)
+                {
+                    var prefix = url.substring(0, url.indexOf(paramName));
+                    var suffix = url.substring(url.indexOf(paramName));
+                    suffix = suffix.substring(suffix.indexOf("=") + 1);
+                    suffix = (suffix.indexOf("&") >= 0) ? suffix.substring(suffix.indexOf("&")) : "";
+                    url = prefix + paramName + "=" + paramValue + suffix;
+                }
+                else
+                {
+                if (url.indexOf("?") < 0)
+                    url += "?" + paramName + "=" + paramValue;
+                else
+                    url += "&" + paramName + "=" + paramValue;
+                }
+                window.location.href = url;
+            }
+        </script>
+    </div>
+
+</div>
+
+<div class="row">
+    <hr>
+
+    <div class="col-md-12">
+        {control googleAccessStatsGraph}
+    </div>
+
+</div>

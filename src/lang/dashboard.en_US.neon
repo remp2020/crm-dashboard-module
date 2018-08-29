@@ -1,0 +1,160 @@
+menu:
+	main: KPI Dashboard
+
+total:
+	count: Total Count
+	registrations:
+		title: Registered Users
+		tooltip: 'The total number of registered users within system, paying and non paying.'
+	subscriptions:
+		title: Subscriptions
+		tooltip: The total number of subscribers. It contains ongoing and ended subscribers as well.
+	payments:
+		title: Number of payments
+		tooltip: The total number of pyments in given timeframe
+	money:
+		title: Sum of money
+		tooltip: The total money collected via the system
+
+actual:
+	subscribers:
+		count: Subscriber counts
+	system:
+		count: System counts
+	subscriptions:
+		title: Subscriptions
+		tooltip: Total number of active subscription at the display time. Not unique users.
+	locked_articles:
+		title: Locked content
+		tooltip: Actual number of locked content behind the paywall
+	mail_send:
+		title: Mails send
+		tooltip: Total number of mails send from system.
+
+time:
+	today: Today
+	month: Month
+	tomorrow: Tomorrow
+	after_tomorrow: After tomorrow
+	seven_days: +7 days
+	fourteen_days: +14 days
+	thirtyone_days: +31 days
+	last_month_day: "Last month (relative until today)"
+
+users:
+	title: Users
+	new:
+		title: New users
+		tooltip: Comparison of new users with amount of new users created in selected period. Contains both paying and non-paying users registered between %start% and %end
+	subscribers: Subscribers
+	paying_subscribers: Paying subscribers
+	registrations: Registered Users
+	registration:
+		title: User registrations
+		tooltip: User registrations grouped by source
+	new_or_subscribers:
+		title: Subscriptions and Subscribers
+		tooltip: 'Number of subscribers and subscriptions varies because one user can have more subscriptions'
+	user_registrations: Registrations
+	disabled:
+		title: Deactivated and not confirmed users
+		tooltip: Never confirmend account and than disabled
+
+subscriptions:
+	title: Subscriptions
+	new:
+		title: New subscriptions
+		tooltip: 'New subscription that were purshased in the given time, they might be future subscriptions. Counting subscriptions created between %start% and %end%'
+	ending:
+		title: Ending subscriptions
+		tooltip: Number of ending tubscriptions within a given period of time.
+		now:
+			title: Ending subscription in choosen period of time.
+		withnext:
+			title: Ending subscription with following subscription.
+		withrecurrent:
+			title: Ending subscription with recurrent payment.
+		nonext:
+			title: Ending subscription that will not renew.
+		between:
+			tooltip: Ending subscription between chosen period
+		no_renew_between:
+			tooltip: Ending no renewed subscription between chosen period
+	renewed:
+		between:
+			tooltip: Renewed subscriptions between
+	renew:
+		between:
+			tooltip: New subscriptions between
+	difference:
+		title: Subscriptions difference
+		tooltip: Ending subscriptions and new subscriptions
+	by_type:
+		title: Purchased subscriptions by type
+		tooltip: The numbers are cumulative via all the subscription types that are being sold within given period of time
+	only_new_by_type:
+		title: Newly purchased subscriptions by type
+		tooltip: "Count of Newly purchased subscriptions by type (without automatic renewals)"
+	started: Started subscriptions
+	access:
+		title: Subscription access
+		tooltip: Actual subscribers with selected access
+money:
+	title: Money
+	tooltip: The number describes the total sum of money collected via system.
+
+payments:
+	sum:
+		title: Amount of money
+		tooltip: Total amount of money in comparison with selected period. Sum of all "paid" payments paid from %start% to %end%
+	gateways:
+		title: Payments by payment gateway
+		tooltip: Patyment divided by used payments gateways used for the payment
+	recurrent:
+		title: Recurrent payments
+		tooltip: The number of total recurrent payments divided into new recurrent payments and recurrently charged
+		new: New recurrent payments
+		renewed: Automaticaly charged recurrent payments
+	arpa:
+		graph_label: ARPA
+		title: ARPA - sum of payments divided by count of payments
+		tooltip: Shows sum of payments in selected period divided by number of payments - ARPA
+	donations:
+		single: One-time donation
+		recurrent: Recurrent donation
+		title: Additional payments donations
+		tooltip: Amount of money that people donate to theirs payments
+	refunds:
+		title: Sum of refunds
+		tooltip: Sum of all payments in REFUND state refunded
+
+logins:
+	total:
+		title: Number of logins
+		tooltip: 'The number of total logins via web, in applications and coverpage.'
+
+content_share:
+	shares:
+		title: Total amount of shares
+		tooltip: 'Unique amount of shares based on article and users'
+	clicks:
+		title: Total amount of clicks and registrations
+		tooltip: Clicks on shared links and new registrations
+	new_users:
+		title: New users from content share
+		tooltip: All users registered via special content share link
+		clicks: Total clicks
+	total:
+		title: Total content shares
+		tooltip: Unique content shares from users
+	users:
+		title: Users
+		tooltip: Number of unique users sharing content
+	articles:
+		title: Articles
+		tooltip: Number of unique shared articles
+
+shop:
+	products:
+		title: Products
+		tooltip: Number of sold products

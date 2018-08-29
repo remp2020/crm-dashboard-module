@@ -1,0 +1,32 @@
+{block #title}Dashboard{/block}
+
+{block #content}
+
+<div class="row">
+
+	<div class="col-md-3">
+        {control singleStatWidget 'dashboard.singlestat.totals', ['title' => 'dashboard.total.count']}
+	</div>
+
+    <div class="col-md-3">
+        {control singleStatWidget 'dashboard.singlestat.actuals.subscribers', ['title' => 'dashboard.actual.subscribers.count']}
+    </div>
+
+    <div class="col-md-3">
+        {control singleStatWidget 'dashboard.singlestat.actuals.system', ['title' => 'dashboard.actual.system.count']}
+    </div>
+
+    <div class="col-md-3">
+        {control singleStatWidget 'dashboard.singlestat.today', ['title' => 'dashboard.time.today']}
+    </div>
+
+    <div class="col-md-3">
+        {control singleStatWidget 'dashboard.singlestat.month', ['title' => 'dashboard.time.month']}
+    </div>
+
+    <div class="col-md-3">
+        {control singleStatWidget 'dashboard.singlestat.mtd', ['title' => 'dashboard.time.last_month_day']}
+    </div>
+</div>
+
+{control simpleWidget 'dashboard.bottom'}
