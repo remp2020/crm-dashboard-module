@@ -88,7 +88,7 @@ subscriptions:
 		tooltip: Počet zakoupených předplatných podle typu předplatného
 	only_new_by_type:
 		title: Nově zakoupené předplatné
-		tooltip: Počet nově zakoupených předplatných podle typu předplatného (bez automatického obnovení)
+		tooltip: "Počet nově zakoupených předplatných podle typu předplatného (bez automatického obnovení)"
 	started: Začínající předplatné
 	access:
 		title: Rozdělení předplatného podle úrovně přístupu
