@@ -68,6 +68,7 @@ subscriptions:
 	ending:
 		title: Končiace predplatné
 		tooltip: 'Počet predplatných ktoré končia vo vybratom období (bez ohľadu či je to recurrent alebo má používateľ kúpené ďalšie predplatné).'
+		legend: Legenda
 		now:
 			title: Končiace v danom období
 		withnext:
