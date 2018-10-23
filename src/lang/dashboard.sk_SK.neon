@@ -128,6 +128,9 @@ payments:
 	refunds:
 		title: Suma refundov
 		tooltip: Suma všetkých platieb v stave REFUND vrátených v čase
+	registration:
+		title: Zdroj registrácie
+		tooltip: Pôvodný zdroj registrácie používateľov s novou platbou
 
 logins:
 	total:
