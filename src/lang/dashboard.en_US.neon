@@ -52,6 +52,9 @@ users:
 	registration:
 		title: User registrations
 		tooltip: User registrations grouped by source
+	active_sub_registrations:
+		title: Registration source of users with active subscription
+		serie: Registration source
 	new_or_subscribers:
 		title: Subscriptions and Subscribers
 		tooltip: 'Number of subscribers and subscriptions varies because one user can have more subscriptions'
