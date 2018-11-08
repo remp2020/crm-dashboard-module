@@ -47,6 +47,10 @@ users:
 	registration:
 		title: Registrace nových uživatelů
 		tooltip: "Skupiny registrací uživatelů podle zdroje, odkud proběhla registrace"
+	active_sub_registrations:
+		title: Zdroj registrace uživatelů s aktivním předplatným
+		serie: Zdroj registrace
+		tooltip: "Seskupeny počty registrací uživatele s aktivním předplatným podle zdroje odkud proběhla registrace. (nerespektuje filtr dat)"
 	new_or_subscribers:
 		title: Registrace a předplatitelé
 		tooltip: Graf popisuje počet nových registrací a kolik z nich i zaplatilo
@@ -121,6 +125,9 @@ payments:
 	refunds:
 		title: Suma refundací
 		tooltip: Suma všech plateb ve stavu REFUND vrácených v čase
+	registration:
+		title: Zdroj registrace
+		tooltip: Původní zdroj registrace uživatelů s novou platbou
 logins:
 	total:
 		title: Celkový počet přihlášení
