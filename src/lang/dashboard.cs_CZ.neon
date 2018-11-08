@@ -50,7 +50,7 @@ users:
 	active_sub_registrations:
 		title: Zdroj registrace uživatelů s aktivním předplatným
 		serie: Zdroj registrace
-		tooltip: "Seskupeny počty registrací uživatele s aktivním předplatným podle zdroje odkud proběhla registrace. (Respektuje filtr dat)"
+		tooltip: "Seskupeny počty registrací uživatele s aktivním předplatným podle zdroje odkud proběhla registrace. (nerespektuje filtr dat)"
 	new_or_subscribers:
 		title: Registrace a předplatitelé
 		tooltip: Graf popisuje počet nových registrací a kolik z nich i zaplatilo

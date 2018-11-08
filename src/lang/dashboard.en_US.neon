@@ -55,7 +55,7 @@ users:
 	active_sub_registrations:
 		title: Registration source of users with active subscription
 		serie: Registration source
-		tooltip: "Registration counts of users with active subscriptions, grouped by registration source. (respects date filter)"
+		tooltip: "Registration counts of users with active subscriptions, grouped by registration source. (does not respect date filter)"
 	new_or_subscribers:
 		title: Subscriptions and Subscribers
 		tooltip: 'Number of subscribers and subscriptions varies because one user can have more subscriptions'
