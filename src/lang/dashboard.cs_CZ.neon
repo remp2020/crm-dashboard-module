@@ -47,6 +47,10 @@ users:
 	registration:
 		title: Registrace nových uživatelů
 		tooltip: "Skupiny registrací uživatelů podle zdroje, odkud proběhla registrace"
+	active_sub_registrations:
+		title: Zdroj registrace uživatelů s aktivním předplatným
+		serie: Zdroj registrace
+		tooltip: "Seskupeny počty registrací uživatele s aktivním předplatným podle zdroje odkud proběhla registrace. (nerespektuje filtr dat)"
 	new_or_subscribers:
 		title: Registrace a předplatitelé
 		tooltip: Graf popisuje počet nových registrací a kolik z nich i zaplatilo
@@ -62,6 +66,7 @@ subscriptions:
 	ending:
 		title: Končící předplatné
 		tooltip: "Počet předplatných, která končí ve vybraném období (bez ohledu na to, zda je to recurrent, nebo má uživatel koupené další předplatné)."
+		legend: Legenda
 		now:
 			title: Končící v daném období
 		withnext:
@@ -120,6 +125,9 @@ payments:
 	refunds:
 		title: Suma refundací
 		tooltip: Suma všech plateb ve stavu REFUND vrácených v čase
+	registration:
+		title: Zdroj registrace
+		tooltip: Původní zdroj registrace uživatelů s novou platbou
 logins:
 	total:
 		title: Celkový počet přihlášení
