@@ -16,6 +16,11 @@ total:
 actual:
 	subscribers:
 		count: Aktuální počet předplatitelů
+	paying_subscribers:
+		count: Předplatitelé s platbou
+		last_day: poslednich 24 h
+		last_week: poslednich 7 dní
+		last_month: poslednich 30 dní
 	system:
 		count: Aktuální počet
 	subscriptions:
