@@ -19,6 +19,8 @@ total:
 actual:
 	subscribers:
 		count: Subscriber counts
+	paying_subscribers:
+		count: Subscribers with payment
 	system:
 		count: System counts
 	subscriptions:
