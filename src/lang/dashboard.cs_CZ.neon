@@ -17,7 +17,7 @@ actual:
 	subscribers:
 		count: Aktuální počet předplatitelů
 	paying_subscribers:
-		count: Předplatitelé s platbou
+		count: Předplatitelé s placeným předplatným
 	system:
 		count: Aktuální počet
 	subscriptions:
