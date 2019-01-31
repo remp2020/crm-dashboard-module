@@ -124,8 +124,12 @@ payments:
 		renewed: Automaticaly charged recurrent payments
 	arpu:
 		graph_label: ARPU
-		title: ARPU - sum of payments divided by count of payments
-		tooltip: Shows sum of payments in selected period divided by number of payments - ARPA
+		all:
+			title: ARPU - sum of all payments divided by count of payments
+			tooltip: Shows sum of all payments in selected period divided by number of payments - ARPA
+		new:
+			title: ARPU - sum of new payments divided by count of payments
+			tooltip: 'Shows sum of new payments (not recurrent) in selected period divided by number of payments - ARPA'
 	donations:
 		single: One-time donation
 		recurrent: Recurrent donation
