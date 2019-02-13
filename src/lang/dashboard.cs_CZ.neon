@@ -120,9 +120,12 @@ payments:
 		all:
 			title: ARPU - celkem všech plateb / počet
 			tooltip: Zobrazuje sumu všech plateb za dané období děleno počtem plateb - ARPA
-		new:
+		manual:
 			title: ARPU - celkem nových plateb / počet
 			tooltip: 'Zobrazuje sumu všech nových plateb (nevytvořených rekurentně) za dané období děleno počtem plateb - ARPA'
+		recurrent:
+			title: ARPU - celkem rekurentných plateb / počet
+			tooltip: 'Zobrazuje sumu všech rekurentne vytvořených plateb za dané období děleno počtem plateb - ARPA'
 	donations:
 		single: Jednorázové dary
 		recurrent: Opakované platby
