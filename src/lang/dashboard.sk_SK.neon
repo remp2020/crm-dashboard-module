@@ -19,6 +19,8 @@ total:
 actual:
 	subscribers:
 		count: Aktuálny počet predplatiteľov
+	paying_subscribers:
+		count: Predplatitelia s platbou
 	system:
 		count: Aktuálny počet
 	subscriptions:
@@ -120,10 +122,17 @@ payments:
 		tooltip: Počet nových obnovovaných platieb rozdelených do automaticky obnovených a nových
 		new: Nové opakované platby
 		renewed: Automaticky opakované platby
-	arpa:
-		graph_label: ARPA
-		title: ARPA - suma platieb / počet
-		tooltip: Zobrazuje sumu platieb v danom období delene počet platieb - ARPA
+	arpu:
+		graph_label: ARPU
+		all:
+			title: ARPU - suma všetkých platieb / počet
+			tooltip: Zobrazuje sumu všetkých platieb v danom období delene počet platieb - ARPU
+		manual:
+			title: ARPU - suma nových platieb / počet
+			tooltip: 'Zobrazuje sumu všetkých nových platieb (nevytvorených rekurentne) v danom období delene počet platieb - ARPU'
+		recurrent:
+			title: ARPU - suma rekurentných platieb / počet
+			tooltip: 'Zobrazuje sumu všetkých rekurentne vytvorených platieb v danom období delene počet platieb - ARPU'
 	donations:
 		single: Jednorázové dary
 		recurrent: Opakované platby

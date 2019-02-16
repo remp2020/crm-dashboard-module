@@ -19,6 +19,8 @@ total:
 actual:
 	subscribers:
 		count: Subscriber counts
+	paying_subscribers:
+		count: Subscribers with payment
 	system:
 		count: System counts
 	subscriptions:
@@ -120,10 +122,17 @@ payments:
 		tooltip: The number of total recurrent payments divided into new recurrent payments and recurrently charged
 		new: New recurrent payments
 		renewed: Automaticaly charged recurrent payments
-	arpa:
-		graph_label: ARPA
-		title: ARPA - sum of payments divided by count of payments
-		tooltip: Shows sum of payments in selected period divided by number of payments - ARPA
+	arpu:
+		graph_label: ARPU
+		all:
+			title: ARPU - sum of all payments divided by count of payments
+			tooltip: Shows sum of all payments in selected period divided by number of payments - ARPA
+		manual:
+			title: ARPU - sum of new payments divided by count of payments
+			tooltip: 'Shows sum of new payments (not recurrent) in selected period divided by number of payments - ARPA'
+		recurrent:
+			title: ARPU - sum of recurrent divided by count of payments
+			tooltip: 'Shows sum of recurrent payments in selected period divided by number of payments - ARPA'
 	donations:
 		single: One-time donation
 		recurrent: Recurrent donation
