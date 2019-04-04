@@ -128,11 +128,23 @@ payments:
 			title: ARPU - sum of all payments divided by count of payments
 			tooltip: Shows sum of all payments in selected period divided by number of payments - ARPA
 		manual:
-			title: ARPU - sum of new payments divided by count of payments
+			title: ARPU - sum of all new payments divided by count of payments
 			tooltip: 'Shows sum of new payments (not recurrent) in selected period divided by number of payments - ARPA'
 		recurrent:
-			title: ARPU - sum of recurrent divided by count of payments
+			title: ARPU - sum of all recurrent divided by count of payments
 			tooltip: 'Shows sum of recurrent payments in selected period divided by number of payments - ARPA'
+	arpu_subscriptions:
+		graph_label: ARPU
+		all:
+			title: ARPU - sum of subscription and donation payments divided by count of payments
+			tooltip: Shows sum of subscription and donation payments in selected period divided by number of payments - ARPA
+		manual:
+			title: ARPU - sum of subscription and donation payments divided by count of payments
+			tooltip: 'Shows sum of subscription and donation payments (not recurrent) in selected period divided by number of payments - ARPA'
+		recurrent:
+			title: ARPU - sum of recurrent subscription and donation divided by count of payments
+			tooltip: 'Shows sum of recurrent subscription and donation payments in selected period divided by number of payments - ARPA'
+
 	donations:
 		single: One-time donation
 		recurrent: Recurrent donation
