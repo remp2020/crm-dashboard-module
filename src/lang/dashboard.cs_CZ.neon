@@ -115,28 +115,6 @@ payments:
 		tooltip: Počet nových obnovovaných plateb rozdělený do automaticky obnovených a nových
 		new: Nové opakované platby
 		renewed: Automaticky opakované platby
-	arpu:
-		graph_label: ARPU
-		all:
-			title: ARPU - celkem všech plateb / počet
-			tooltip: Zobrazuje sumu všech plateb za dané období děleno počtem plateb - ARPA
-		manual:
-			title: ARPU - celkem všech nových plateb / počet
-			tooltip: 'Zobrazuje sumu všech nových plateb (nevytvořených rekurentně) za dané období děleno počtem plateb - ARPA'
-		recurrent:
-			title: ARPU - celkem všech rekurentných plateb / počet
-			tooltip: 'Zobrazuje sumu všech rekurentne vytvořených plateb za dané období děleno počtem plateb - ARPA'
-	arpu_subscriptions:
-		graph_label: ARPU
-		all:
-			title: ARPU - celkem plateb za předplatné a dary / počet
-			tooltip: Zobrazuje sumu plateb za předplatné a dary za dané období děleno počtem plateb - ARPA
-		manual:
-			title: ARPU - celkem nových plateb / počet
-			tooltip: 'Zobrazuje sumu nových plateb za předplatné a dary (nevytvořených rekurentně) za dané období děleno počtem plateb - ARPA'
-		recurrent:
-			title: ARPU - celkem rekurentných plateb / počet
-			tooltip: 'Zobrazuje sumu rekurentne vytvořených plateb za předplatné a dary za dané období děleno počtem plateb - ARPA'
 
 	donations:
 		single: Jednorázové dary
