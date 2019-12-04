@@ -81,6 +81,8 @@ subscriptions:
 			title: Končící s recurrentem na obnovení
 		nonext:
 			title: Neprodlužuje se
+		nonext_paid:
+			title: 'Neprodlužuje se (jen placené)'
 		between:
 			tooltip: Předplatné končí mezi
 		no_renew_between:

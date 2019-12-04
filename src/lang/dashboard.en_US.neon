@@ -87,6 +87,8 @@ subscriptions:
 			title: Ending subscription with recurrent payment.
 		nonext:
 			title: Ending subscription that will not renew.
+		nonext_paid:
+			title: 'Ending subscription that will not renew. (only paid)'
 		between:
 			tooltip: Ending subscription between chosen period
 		no_renew_between:
