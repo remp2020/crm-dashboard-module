@@ -6,6 +6,10 @@ total:
 	registrations:
 		title: Registrovaní používatelia
 		tooltip: Celkový počet všetkých používateľov v systéme. Aj platiaci aj neplatiaci.
+	active_registrations:
+		title: Aktívne registrácie
+		tooltip: 'Celkový počet všetkých aktívnych (nevymazaných) používateľov v systéme. Aj platiaci aj neplatiaci.'
+		warning: 'Pre zobrazenie správnej hodnoty musíte aktualizovať počet v detaile segmentu.'
 	subscriptions:
 		title: Všetky predplatné
 		tooltip: Celkový počet predplatných za celú históriu. Obsahuje aj vypršané aj budúce predplatné.
