@@ -93,6 +93,8 @@ subscriptions:
 			tooltip: Predplatné končiace medzi
 		no_renew_between:
 			tooltip: Vypršia bez obnovenia medzi
+		no_paid_renew_between:
+			tooltip: "Vypršia (len platené) bez obnovenia medzi"
 	renewed:
 		between:
 			tooltip: Obnovene medzi

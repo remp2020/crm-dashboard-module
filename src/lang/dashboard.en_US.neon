@@ -92,7 +92,9 @@ subscriptions:
 		between:
 			tooltip: Ending subscription between chosen period
 		no_renew_between:
-			tooltip: Ending no renewed subscription between chosen period
+			tooltip: Ending with no subscription renewed between
+		no_paid_renew_between:
+			tooltip: "Ending (only paid) with no subscription renewed between"
 	renewed:
 		between:
 			tooltip: Renewed subscriptions between

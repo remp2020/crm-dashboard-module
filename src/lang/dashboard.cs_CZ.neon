@@ -87,6 +87,8 @@ subscriptions:
 			tooltip: Předplatné končí mezi
 		no_renew_between:
 			tooltip: Vyprší bez obnovení mezi
+		no_paid_renew_between:
+			tooltip: "Vyprší (pouze placené) bez obnovení mezi"
 	renewed:
 		between:
 			tooltip: Obnovení mezi
