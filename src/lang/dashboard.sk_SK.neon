@@ -45,8 +45,7 @@ time:
 	seven_days: +7 dní
 	fourteen_days: +14 dní
 	thirtyone_days: +31 dní
-	last_month_day: "Minulý mesiac (relatívne do dnes)"
-
+	this_month_relative: "Tento mesiac (relatívne do dnes)"
 users:
 	title: Používatelia
 	new:

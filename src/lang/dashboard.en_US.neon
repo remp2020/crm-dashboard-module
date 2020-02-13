@@ -45,7 +45,7 @@ time:
 	seven_days: +7 days
 	fourteen_days: +14 days
 	thirtyone_days: +31 days
-	last_month_day: "Last month (relative until today)"
+	this_month_relative: "This month (relative until today)"
 
 users:
 	title: Users
