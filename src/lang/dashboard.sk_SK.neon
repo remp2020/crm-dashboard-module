@@ -1,6 +1,7 @@
+global:
+    pcs: ks
 menu:
 	main: KPI Dashboard
-
 total:
 	count: Celkový počet
 	registrations:
