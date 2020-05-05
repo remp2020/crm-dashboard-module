@@ -1,4 +1,5 @@
-n: KPI Dashboard
+menu:
+    main: KPI Dashboard
 total:
 	count: Celkový počet
 	registrations:

@@ -51,7 +51,7 @@ users:
 	title: Users
 	new:
 		title: New users
-		tooltip: Comparison of new users with amount of new users created in selected period. Contains both paying and non-paying users registered between %start% and %end
+		tooltip: Comparison of new users with amount of new users created in selected period. Contains both paying and non-paying users registered between %start% and %end%
 	subscribers: Subscribers
 	paying_subscribers: Paying subscribers
 	registrations: Registered Users
