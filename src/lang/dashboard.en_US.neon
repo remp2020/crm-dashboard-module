@@ -9,7 +9,6 @@ total:
 	active_registrations:
 		title: Active registered Users
 		tooltip: 'The total number of active not deleted registered users within system, paying and non paying.'
-		warning: 'You have to refresh count in segment detail in order to show actual value.'
 	subscriptions:
 		title: Subscriptions
 		tooltip: The total number of subscribers. It contains ongoing and ended subscribers as well.

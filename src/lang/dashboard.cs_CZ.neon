@@ -8,7 +8,6 @@ total:
 	active_registrations:
 		title: Aktivní registrace
 		tooltip: 'Celkový počet všech aktivních (nebyla odstraněna) uživatelů v systému. I platící i neplatící.'
-		warning: 'Pro zobrazení správné hodnoty musíte aktualizovat počet v detailu segmentu.'
 	subscriptions:
 		title: Všechny předplatné
 		tooltip: Celkový počet předplatných za celou historii. Obsahuje i ukončené a budoucí předplatné.
