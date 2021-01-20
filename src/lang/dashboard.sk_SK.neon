@@ -113,7 +113,7 @@ subscriptions:
 		tooltip: Zobrazuje počet aktívnych používateľov s predplatným s daným prístupom
 money:
 	title: Suma peňazí
-	tooltip: Suma všetkých pladieb
+	tooltip: Suma všetkých platieb
 
 payments:
 	sum:
