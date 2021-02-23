@@ -121,6 +121,9 @@ payments:
 	sum:
 		title: Amount of money
 		tooltip: Total amount of money in comparison with selected period. Sum of all "paid" payments paid from %start% to %end%
+	donations_sum:
+		title: Amount of donations
+		tooltip: Total amount of donations in comparison with selected period. Sum of all donations paid from %start% to %end%
 	gateways:
 		title: Payments by payment gateway
 		tooltip: Patyment divided by used payments gateways used for the payment

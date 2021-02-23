@@ -119,6 +119,9 @@ payments:
 	sum:
 		title: Suma peňazí
 		tooltip: Porovnanie s celkovým počtom za zvolené obdobie. Suma všetkých platieb v stave PAID zaplatených v čase od %start% do %end%
+	donations_sum:
+		title: Suma darov
+		tooltip: Porovnanie s celkovým počtom darov za zvolené obdobie. Suma všetkých darov zaplatených v čase od %start% do %end%
 	gateways:
 		title: Platobné brány
 		tooltip: Platby rozdelené podľa platobnej brány
