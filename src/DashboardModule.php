@@ -15,7 +15,20 @@ class DashboardModule extends CrmModule
 
         $mainMenu = new MenuItem('', '#dashboard', 'fa fa-tachometer-alt', 5);
 
-        $menuItem = new MenuItem('Dashboard', ':Dashboard:Dashboard:', 'fa fa-tachometer-alt', 100);
+        $menuItem = new MenuItem(
+            'Dashboard',
+            ':Dashboard:Dashboard:',
+            'fa fa-tachometer-alt',
+            100
+        );
+        $mainMenu->addChild($menuItem);
+
+        $menuItem = new MenuItem(
+            $this->translator->translate('dashboard.menu.measurements'),
+            ':Dashboard:Measurements:default',
+            'fa fa-chart-simple',
+            300
+        );
         $mainMenu->addChild($menuItem);
 
         $menuContainer->attachMenuItem($mainMenu);

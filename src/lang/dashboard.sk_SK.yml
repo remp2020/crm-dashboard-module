@@ -1,5 +1,5 @@
 menu:
-    main: KPI Dashboard
+    measurements: Merania
 
 total:
     count: Celkový počet
@@ -169,3 +169,8 @@ content_share:
     articles:
         title: Zdieľané články
         tooltip: Unikátny počet zdieľaných článkov
+
+measurements:
+    default:
+        title: Merania
+        new: Nové

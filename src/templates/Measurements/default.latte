@@ -1,0 +1,30 @@
+{block #content}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1 n:block="title">
+                {_"dashboard.measurements.default.title"}
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-2 text-right">
+        <div n:foreach="$measurements as $measurement" class="card">
+            <h5>
+                <a n:href="default $measurement->code">{_$measurement->title}</a>
+                {capture $description}{_$measurement->description}{/capture}
+                <i n:if="$description" class="fa fa-question-circle" data-toggle="tooltip" title="{$description}"></i>
+                <span n:if="$measurement->created_at > (new \DateTime())->sub(new \DateInterval('P2W'))" class="label label-primary">{_"dashboard.measurements.default.new"}</span>
+            </h5>
+        </div>
+    </div>
+    <div n:ifset="$measurementRow" class="col-md-10">
+        {control measurementChart}
+    </div>
+
+</div>
+
+{/block}

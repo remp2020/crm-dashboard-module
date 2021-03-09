@@ -1,5 +1,5 @@
 menu:
-    main: KPI Dashboard
+    measurements: Measurements
 
 total:
     count: Total Count
@@ -170,3 +170,8 @@ content_share:
     articles:
         title: Articles
         tooltip: Number of unique shared articles
+
+measurements:
+    default:
+        title: Measurements
+        new: New
