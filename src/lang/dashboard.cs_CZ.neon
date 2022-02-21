@@ -1,5 +1,6 @@
 menu:
-    main: KPI Dashboard
+	main: KPI Dashboard
+
 total:
 	count: Celkový počet
 	registrations:
@@ -64,6 +65,7 @@ users:
 	disabled:
 		title: Deaktivovaní a nikdy nepotvrzení uživatelé
 		tooltip: "Konta, která nebyla nikdy potvrzená a na základě toho byla deaktivovaná"
+
 subscriptions:
 	title: Předplatné
 	new:
@@ -138,10 +140,12 @@ payments:
 	registration:
 		title: Zdroj registrace
 		tooltip: Původní zdroj registrace uživatelů s novou platbou
+
 logins:
 	total:
 		title: Celkový počet přihlášení
 		tooltip: "Celkový počet přihlášení na webu, v aplikacích a v coverpage"
+
 content_share:
 	shares:
 		title: Celkový počet sdílení
@@ -162,6 +166,7 @@ content_share:
 	articles:
 		title: Sdílené články
 		tooltip: Unikátní počet sdílených článků
+
 shop:
 	products:
 		title: Produkty
