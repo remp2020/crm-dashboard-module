@@ -1,0 +1,176 @@
+menu:
+    main: KPI Dashboard
+
+total:
+    count: Celkový počet
+    registrations:
+        title: Registrovaní používatelia
+        tooltip: Celkový počet všetkých používateľov v systéme. Aj platiaci aj neplatiaci.
+    active_registrations:
+        title: Aktívne registrácie
+        tooltip: 'Celkový počet všetkých aktívnych (nevymazaných) používateľov v systéme. Aj platiaci aj neplatiaci.'
+    subscriptions:
+        title: Všetky predplatné
+        tooltip: Celkový počet predplatných za celú históriu. Obsahuje aj vypršané aj budúce predplatné.
+    payments:
+        title: Celkový počet platieb
+        tooltip: Celkový počet platieb za dané obdobie
+    money:
+        title: Celková suma peňazí
+        tooltip: "Celková suma peňazí v systéme"
+
+actual:
+    subscribers:
+        count: Aktuálny počet predplatiteľov
+    paying_subscribers:
+        count: Predplatitelia s platbou
+    system:
+        count: Aktuálny počet
+    subscriptions:
+        title: Predplatné
+        tooltip: 'Počet predplatných, ktoré aktuálne prebiehajú. Ich začiatok je v minulosti a koniec v budúcnosti. Nie sú to unikátni používatelia.'
+    locked_articles:
+        title: Zamknuté články
+        tooltip: 'Počet článkov, ktoré sú aktuálne zamknuté'
+    mail_send:
+        title: Odoslaných mailov
+        tooltip: Suma všetkých mailov odoslaných zo systému do aktuálneho času.
+
+time:
+    today: Dnes
+    month: Tento mesiac
+    tomorrow: Zajtra
+    after_tomorrow: Pozajtra
+    seven_days: +7 dní
+    fourteen_days: +14 dní
+    thirtyone_days: +31 dní
+    this_month_relative: "Tento mesiac (relatívne do dnes)"
+users:
+    title: Používatelia
+    new:
+        title: Noví používatelia
+        tooltip: Porovnanie s celkovým počtom nových používateľov za zvolené obdobie. Obsahuje platiacich aj neplatiacich nových používateľov zaregistrovaných medzi %start% a %end%
+    subscribers: Predplatitelia
+    paying_subscribers: Platiaci predplatitelia
+    registrations: Registrovaní používatelia
+    registration:
+        title: Registrácie nových používateľov
+        tooltip: Zoskupené registrácie používateľov podľa zdroja odkiaľ prebehla registrácia
+    active_sub_registrations:
+        title: Zdroj registrácie používateľov s aktívnym predplatným
+        serie: Zdroj registrácie
+        tooltip: "Zoskupené počty registrácií používateľov s aktívnym predplatným, podľa zdroja odkiaľ prebehla registrácia. (nerešpektuje filter dátumov)"
+    new_or_subscribers:
+        title: Registrácie a predplatitelia
+        tooltip: 'Graf popisuje počet nových registrácií a koľko z nich si aj zaplatilo'
+    user_registrations: Registrácie
+    disabled:
+        title: Deaktivovaní a nikdy nepotvrdení používatelia
+        tooltip: Kontá ktoré neboli nikdy potvrdené a na základe toho deaktivované
+
+subscriptions:
+    title: Predplatné
+    new:
+        title: Nové predplatné
+        tooltip: 'Porovnanie s celkovým počtom za zvolené obdobie. Neznamená že sú aj aktívne. Používatelia, ktorí si predĺžili predplatné môžu mať zatiaľ stále aktívne staré ale tu sa zaráta vznik nového. Počet predplatných, ktoré vznikli medzi %start% a %end%'
+    ending:
+        title: Končiace predplatné
+        tooltip: 'Počet predplatných ktoré končia vo vybratom období (bez ohľadu či je to recurrent alebo má používateľ kúpené ďalšie predplatné).'
+        legend: Legenda
+        now:
+            title: Končiace v danom období
+        withnext:
+            title: Končiace s už existujúcim nasledujúcim
+        withrecurrent:
+            title: Končiace s recurrentom na obnovenie
+        nonext:
+            title: Nepredĺžia sa
+        nonext_paid:
+            title: 'Nepredĺžia sa (len platené)'
+        between:
+            tooltip: Predplatné končiace medzi
+        no_renew_between:
+            tooltip: Vypršia bez obnovenia medzi
+        no_paid_renew_between:
+            tooltip: "Vypršia (len platené) bez obnovenia medzi"
+    renewed:
+        between:
+            tooltip: Obnovene medzi
+    renew:
+        between:
+            tooltip: Obnovenie prebehne medzi
+    difference:
+        title: Pohyb predplatného
+        tooltip: 'Kladné čísla informujú o začínajúcom predplatnom v daný deň, záporné čisla hovoria o skončenom predplatnom v daný deň.'
+    by_type:
+        title: Zakúpené predplatné
+        tooltip: Počet zakúpených predplatných podľa typu predplatného
+    only_new_by_type:
+        title: Novo zakúpené predplatné
+        tooltip: "Počet novo zakúpených predplatných podľa typu predplatného (bez automatických obnovení)"
+    started: Začínajúce predplatné
+    access:
+        title: Rozdelenie predplatného podľa úrovne prístupu
+        tooltip: Zobrazuje počet aktívnych používateľov s predplatným s daným prístupom
+money:
+    title: Suma peňazí
+    tooltip: Suma všetkých platieb
+
+payments:
+    sum:
+        title: Suma peňazí
+        tooltip: Porovnanie s celkovým počtom za zvolené obdobie. Suma všetkých platieb v stave PAID zaplatených v čase od %start% do %end%
+    donations_sum:
+        title: Suma darov
+        tooltip: Porovnanie s celkovým počtom darov za zvolené obdobie. Suma všetkých darov zaplatených v čase od %start% do %end%
+    gateways:
+        title: Platobné brány
+        tooltip: Platby rozdelené podľa platobnej brány
+    recurrent:
+        title: Automaticky opakované platby
+        tooltip: Počet nových obnovovaných platieb rozdelených do automaticky obnovených a nových
+        new: Nové opakované platby
+        renewed: Automaticky opakované platby
+
+    donations:
+        single: Jednorázové dary
+        recurrent: Opakované platby
+        title: Dary pri platbách
+        tooltip: Suma peňazí ktorú ľudia dobrovoľne darovali pri platbe
+    refunds:
+        title: Suma refundov
+        tooltip: Suma všetkých platieb v stave REFUND vrátených v čase
+    registration:
+        title: Zdroj registrácie
+        tooltip: Pôvodný zdroj registrácie používateľov s novou platbou
+
+logins:
+    total:
+        title: Celkový počet prihlásení
+        tooltip: 'Celkový počet prihlásení na webe, v aplikáciach a v coverpage'
+
+content_share:
+    shares:
+        title: Celkové počty zdieľaní
+        tooltip: 'Unikátny počet všetkých zdieľaní, podľa článku a podľa používateľov'
+    clicks:
+        title: Celkové počty kliknutí a registrácií
+        tooltip: Kliknutia na zdieľané linky a nové registrácie
+    new_users:
+        title: Noví používatelia cez zdieľanie obsahu
+        tooltip: Noví používatelia zaregistrovaný cez link na zdieľanie obsahu
+        clicks: Celkovo otvorení
+    total:
+        title: Počet všetkých zdieľaní
+        tooltip: unikátny počet všetkých zdieľaní
+    users:
+        title: Zdieľajúci používatelia
+        tooltip: Unikátny počet zdieľajúcich používateľov
+    articles:
+        title: Zdieľané články
+        tooltip: Unikátny počet zdieľaných článkov
+
+shop:
+    products:
+        title: Produkty
+        tooltip: Počet predaných produktov
