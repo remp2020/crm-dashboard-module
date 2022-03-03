@@ -79,13 +79,13 @@ subscriptions:
         tooltip: Number of ending tubscriptions within a given period of time.
         legend: Legend
         now:
-            title: Ending subscription in choosen period of time.
+            title: Ending subscription in choosen period of time
         withnext:
-            title: Ending subscription with following subscription.
+            title: Ending subscription with following subscription
         withrecurrent:
-            title: Ending subscription with recurrent payment.
+            title: Ending subscription with recurrent payment
         nonext:
-            title: Ending subscription that will not renew.
+            title: Ending subscription that will not renew
         nonext_paid:
             title: 'Ending subscription that will not renew. (only paid)'
         between:
@@ -102,7 +102,7 @@ subscriptions:
             tooltip: New subscriptions between
     difference:
         title: Subscriptions difference
-        tooltip: Ending subscriptions and new subscriptions
+        tooltip: Ending subscriptions and new subscriptions.
     by_type:
         title: Purchased subscriptions by type
         tooltip: The numbers are cumulative via all the subscription types that are being sold within given period of time
@@ -115,7 +115,7 @@ subscriptions:
         tooltip: Actual subscribers with selected access
 money:
     title: Money
-    tooltip: The number describes the total sum of money collected via system.
+    tooltip: The number describes the total sum of money collected via system
 
 payments:
     sum:
@@ -148,7 +148,7 @@ payments:
 logins:
     total:
         title: Number of logins
-        tooltip: 'The number of total logins via web, in applications and coverpage.'
+        tooltip: 'The number of total logins via web, in applications and coverpage'
 
 content_share:
     shares:

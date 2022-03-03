@@ -99,7 +99,7 @@ subscriptions:
             tooltip: Obnovení proběhne mezi
     difference:
         title: Pohyb předplatného
-        tooltip: "Kladná čísla informují o začínajícím předplatném v daný den, záporná čísla vykazují skončená předplatná v daný den"
+        tooltip: "Kladná čísla informují o začínajícím předplatném v daný den, záporná čísla vykazují skončená předplatná v daný den."
     by_type:
         title: Zakoupené předplatné
         tooltip: Počet zakoupených předplatných podle typu předplatného
