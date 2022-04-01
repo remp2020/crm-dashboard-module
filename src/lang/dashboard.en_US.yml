@@ -175,3 +175,6 @@ shop:
     products:
         title: Products
         tooltip: Number of sold products
+    product_tags:
+        title: Tagy
+        tooltip: The number of products sold for each tag

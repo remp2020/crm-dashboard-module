@@ -171,3 +171,6 @@ shop:
     products:
         title: Produkty
         tooltip: Počet prodaných produktů
+    product_tags:
+        title: Tagy
+        tooltip: Počet prodaných produktů pro jednotlivé tagy
