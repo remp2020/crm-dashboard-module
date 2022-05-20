@@ -170,11 +170,3 @@ content_share:
     articles:
         title: Articles
         tooltip: Number of unique shared articles
-
-shop:
-    products:
-        title: Products
-        tooltip: Number of sold products
-    product_tags:
-        title: Tagy
-        tooltip: The number of products sold for each tag

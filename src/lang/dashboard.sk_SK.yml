@@ -169,11 +169,3 @@ content_share:
     articles:
         title: Zdieľané články
         tooltip: Unikátny počet zdieľaných článkov
-
-shop:
-    products:
-        title: Produkty
-        tooltip: Počet predaných produktov
-    product_tags:
-        title: Tagy
-        tooltip: Počet predaných produktov pre jednotlivé tagy
