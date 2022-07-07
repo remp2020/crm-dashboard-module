@@ -27,7 +27,7 @@ class DashboardModule extends CrmModule
             $this->translator->translate('dashboard.menu.measurements'),
             ':Dashboard:Measurements:default',
             'fa fa-chart-simple',
-            300
+            1600
         );
         $mainMenu->addChild($menuItem);
 
