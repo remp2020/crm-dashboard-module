@@ -56,6 +56,9 @@ users:
     registration:
         title: Registrácie nových používateľov
         tooltip: Zoskupené registrácie používateľov podľa zdroja odkiaľ prebehla registrácia
+    registration_from_funnel:
+        title: Registrácie nových používateľov (platebné okná)
+        tooltip: Zoskupené registrácie používateľov podľa platebných okien odkiaľ prebehla registrácia
     active_sub_registrations:
         title: Zdroj registrácie používateľov s aktívnym predplatným
         serie: Zdroj registrácie

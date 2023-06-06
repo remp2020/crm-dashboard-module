@@ -57,6 +57,9 @@ users:
     registration:
         title: User registrations
         tooltip: User registrations grouped by source
+    registration_from_funnel:
+        title: User registrations (sales funnels)
+        tooltip: User registrations grouped by sales funnels
     active_sub_registrations:
         title: Registration source of users with active subscription
         serie: Registration source
