@@ -8,16 +8,17 @@ use Crm\ApplicationModule\Graphs\Criteria;
 use Crm\ApplicationModule\Graphs\GraphDataItem;
 use Crm\ApplicationModule\Models\Graphs\Scale\Measurements\RangeScaleFactory;
 use Crm\ApplicationModule\Models\Measurements\Repository\MeasurementsRepository;
+use Nette\Application\Attributes\Persistent;
 use Nette\Utils\DateTime;
 
 class MeasurementsPresenter extends AdminPresenter
 {
     private MeasurementsRepository $measurementsRepository;
 
-    /** @persistent */
+    #[Persistent]
     public string $dateFrom;
 
-    /** @persistent */
+    #[Persistent]
     public string $dateTo;
 
     public function __construct(
