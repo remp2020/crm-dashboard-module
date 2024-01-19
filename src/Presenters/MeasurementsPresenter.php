@@ -3,11 +3,11 @@
 namespace Crm\DashboardModule\Presenters;
 
 use Crm\AdminModule\Presenters\AdminPresenter;
-use Crm\ApplicationModule\Components\Graphs\GoogleLineGraphGroupControlFactoryInterface;
-use Crm\ApplicationModule\Graphs\Criteria;
-use Crm\ApplicationModule\Graphs\GraphDataItem;
+use Crm\ApplicationModule\Components\Graphs\GoogleLineGraphGroup\GoogleLineGraphGroupControlFactoryInterface;
+use Crm\ApplicationModule\Models\Graphs\Criteria;
+use Crm\ApplicationModule\Models\Graphs\GraphDataItem;
 use Crm\ApplicationModule\Models\Graphs\Scale\Measurements\RangeScaleFactory;
-use Crm\ApplicationModule\Models\Measurements\Repository\MeasurementsRepository;
+use Crm\ApplicationModule\Repositories\MeasurementsRepository;
 use Nette\Application\Attributes\Persistent;
 use Nette\Utils\DateTime;
 

@@ -3,8 +3,8 @@
 namespace Crm\DashboardModule;
 
 use Crm\ApplicationModule\CrmModule;
-use Crm\ApplicationModule\Menu\MenuContainerInterface;
-use Crm\ApplicationModule\Menu\MenuItem;
+use Crm\ApplicationModule\Models\Menu\MenuContainerInterface;
+use Crm\ApplicationModule\Models\Menu\MenuItem;
 
 class DashboardModule extends CrmModule
 {
