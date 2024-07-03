@@ -1,1 +1,169 @@
-{}
+users:
+    active_sub_registrations:
+        serie: Herkunft von Registrierungen
+        tooltip: Anzahl an Registrierungen von Nutzer:innen mit laufenden Abonnements, gruppiert nach Herkunft (Datumsfilter wird nicht berücksichtigt)
+        title: Herkunft der Registrierung von Nutzer:innen mit aktivem Abonnement
+    registration_from_funnel:
+        title: Registrierungen (Sales Funnels)
+        tooltip: Registrierungen gruppiert nach Sales Funnels
+    disabled:
+        tooltip: Unbestätigter Account / wurde dann deaktiviert
+        title: Deaktivierte und nicht bestätigte Nutzer:innen
+    paying_subscribers: Zahlende Abonnent:innen
+    subscribers: Abonnent:innen
+    registrations: Registrierte Nutzer:innen
+    new_or_subscribers:
+        title: Abonnements und Abonnent:innen
+        tooltip: Anzahl an Abonnent:innen und Abonnements variiert, da ein:e Nutzer:in mehrere Abonnements haben kann
+    user_registrations: Anmeldung
+    title: Nutzer:innen
+    new:
+        title: Neue Nutzer:innen
+        tooltip: Vergleich von neuen Nutzer:innen mit der menge von neuen Nutzer:innen im ausgewählten Zeitraum. Beinhaltet sowohl zahlende als auch nicht zahlende registrierte Nutzer:innen zwischen %start% und %end%
+    registration:
+        title: Registrierungen
+        tooltip: Registrierungen gruppiert nach Herkunft
+subscriptions:
+    new:
+        title: Neue Abonnements
+        tooltip: Neue Abonnements, die in der gewählten Zeit gekauft worden sind. Anzahl der zwischen %start% und %end% erstellten Abonnements
+    title: Abonnements
+    ending:
+        withrecurrent:
+            title: Endet mit wiederkehrenden Zahlung
+        nonext:
+            title: Auslaufendes Abonnement (wird nicht erneuert)
+        nonext_paid:
+            title: Auslaufendes Abonnement, das nicht verlängert wird (nur bezahlt)
+        title: Auslaufende Abonnements
+        now:
+            title: Endet im angegebenen Zeitraum
+        withnext:
+            title: Endet mit dem bereits existierenden folgenden Abonnement
+        tooltip: Anzahl auslaufender Abonnements im angegebenen Zeitraum.
+        legend: Legende
+        between:
+            tooltip: Auslaufendes Abonnement im gewählten Zeitraum
+        no_renew_between:
+            tooltip: Auslaufend ohne erneuertem Abonnement seitdem
+        no_paid_renew_between:
+            tooltip: Auslaufend (nur bezahlt) ohne erneuertem Abonnement seitdem
+    by_type:
+        title: Gekaufte Abos nach Aboart
+        tooltip: Anzahl der gekauften Abonnements nach Abonnementtyp
+    started: Begonnene Abonnements
+    access:
+        title: Abonnementaufschlüsselung nach Zugriffsebene
+        tooltip: Zeigt die Anzahl der aktiven Nutzer:innen mit einem Abonnement mit einer bestimmten Leseberechtigung an
+    difference:
+        tooltip: Positive Zahlen geben den Beginn des Abonnements an dem angegebenen Tag an, negative Zahlen geben das Ende des Abonnements an dem angegebenen Tag an.
+        title: Abos Unterschied
+    only_new_by_type:
+        title: Neu gekaufte Abos nach Aboart
+        tooltip: Anzahl neu gekaufter Abos nach Aboart (ohne automatische Verlängerungen)
+    renewed:
+        between:
+            tooltip: Erneuertes Abonnement
+    renew:
+        between:
+            tooltip: Neues Abonnement seitdem
+payments:
+    sum:
+        tooltip: Gesamtumsatz verglichen über einen gewählten Zeitraum. Summe aller "bezahlten" Zahlungen von %start% bis %end%
+        title: Gesamtumsatz
+    recurrent:
+        renewed: Automatisch durchgeführte wiederkehrende Zahlungen
+        tooltip: Die Anzahl der neuen erneuerten Zahlungen, aufgeteilt in automatisch erneuerte und neue
+        title: Wiederkehrende Zahlungen
+        new: Neue wiederkehrende Zahlungen
+    donations:
+        single: Einmalige Geschenke
+        recurrent: Automatisch verlängerte Geschenke
+        title: Geschenke mit Zahlungen
+    refunds:
+        tooltip: Summe aller Zahlungen im REFUND Status refunded
+        title: Summe von Gutschriften
+    registration:
+        title: Herkunft der Registrierung
+        tooltip: Ursprüngliche Herkunft einer Registrierung mit neuer Zahlung
+    donations_sum:
+        title: Anzahl Geschenke
+        tooltip: Anzahl Geschenke im Vergleich über einen gewählten Zeitraum. Summe aller Geschenke von %start% bis %end%
+    gateways:
+        title: Zahlungen nach Zahlungsart
+        tooltip: Zahlungen geteilt nach Zahlungsgateway
+logins:
+    total:
+        title: Anzahl Logins
+        tooltip: Gesamtanzahl von Logins via web, in Applikationen und coverpage
+content_share:
+    new_users:
+        tooltip: Alle Nutzer:innen, die aus einem special content share link registriert sind
+        clicks: Gesamtanzahl Klicks
+        title: Neue Nutzer:innen aus geteilten Inhalten
+    shares:
+        title: Anzahl an Shares
+        tooltip: Anzahl an Shares basierend auf Artikel und Nutzer:innen
+    clicks:
+        title: Gesamtanzahl an Klicks und Registrierungen
+        tooltip: Klicks auf geteilte Links und neue Registrierungen
+    total:
+        title: Gesamtanzahl geteilter Inhalte
+        tooltip: Eindeutige geteilte Inhalte von Nutzer:innen
+    users:
+        title: Nutzer:innen
+        tooltip: Anzahl von unique Nutzer:innen, die Inhalte geteilt haben
+    articles:
+        title: Geteilte Artikel
+        tooltip: Anzahl unique geteilter Artikel
+measurements:
+    default:
+        title: Statistiken
+        new: Neu
+time:
+    after_tomorrow: Übermorgen
+    thirtyone_days: +31 Tage
+    today: Heute
+    month: Diesen Monat
+    tomorrow: Morgen
+    seven_days: +7 Tage
+    fourteen_days: +14 Tage
+    this_month_relative: Diesen Monat (relativ bis heute)
+menu:
+    measurements: Statistiken
+total:
+    count: Gesamtanzahl
+    registrations:
+        title: Registrierte Nutzer:innen
+        tooltip: Die Gesamtanzahl registrierter Nutzer:innen im System (zahlende und nicht zahlende).
+    active_registrations:
+        title: Aktive registrierte Nutzer:innen
+        tooltip: Die Gesamtanzahl aktiver (nicht gelöschter) registrierter Nutzer:innen im System, zahlende und nicht zahlende.
+    subscriptions:
+        title: Abonnements
+        tooltip: The Gesamtanzahl an Abonnent:innen. Beinhaltet laufende und abgelaufene.
+    payments:
+        title: Anzahl an Zahlungen
+        tooltip: Die Gesamtanzahl an Zahlungen in einem bestimmten Zeitraum
+    money:
+        title: Gesamtbetrag
+        tooltip: Der Gesamtumsatz im System
+actual:
+    subscribers:
+        count: Anzahl zahlender Abonnent:innen
+    paying_subscribers:
+        count: Abonnent:innen mit Zahlungen
+    system:
+        count: Systemkennzahlen
+    subscriptions:
+        title: Abonnements
+        tooltip: Gesamtanzahl aktiver Abonnements zur Zeit (mehrere Pro Nutzer:in möglich).
+    locked_articles:
+        title: Gesperrte Inhalte
+        tooltip: Anzahl gesperrter Artikel (hinter der Paywall)
+    mail_send:
+        title: Verschickte Mails
+        tooltip: Gesamtzahl aus dem System verschickter Mails.
+money:
+    title: Betrag
+    tooltip: Gesamtumsatz im System
