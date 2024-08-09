@@ -10,8 +10,8 @@ total:
         title: Všechny předplatné
         tooltip: Celkový počet předplatných za celou historii. Obsahuje i ukončené a budoucí předplatné.
     payments:
-        title: Celkový počet plateb
-        tooltip: Celkový počet plateb za dané období
+        title: Celková částka plateb
+        tooltip: Celková částka plateb za dané období
     money:
         title: Celková suma peněz
         tooltip: Celková suma peněz v systému
