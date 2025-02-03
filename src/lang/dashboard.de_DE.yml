@@ -48,19 +48,10 @@ subscriptions:
             tooltip: Auslaufend ohne erneuertem Abonnement seitdem
         no_paid_renew_between:
             tooltip: Auslaufend (nur bezahlt) ohne erneuertem Abonnement seitdem
-    by_type:
-        title: Gekaufte Abos nach Aboart
-        tooltip: Anzahl der gekauften Abonnements nach Abonnementtyp
     started: Begonnene Abonnements
-    access:
-        title: Abonnementaufschlüsselung nach Zugriffsebene
-        tooltip: Zeigt die Anzahl der aktiven Nutzer:innen mit einem Abonnement mit einer bestimmten Leseberechtigung an
     difference:
         tooltip: Positive Zahlen geben den Beginn des Abonnements an dem angegebenen Tag an, negative Zahlen geben das Ende des Abonnements an dem angegebenen Tag an.
         title: Abos Unterschied
-    only_new_by_type:
-        title: Neu gekaufte Abos nach Aboart
-        tooltip: Anzahl neu gekaufter Abos nach Aboart (ohne automatische Verlängerungen)
     renewed:
         between:
             tooltip: Erneuertes Abonnement

@@ -106,16 +106,7 @@ subscriptions:
     difference:
         title: Subscriptions difference
         tooltip: Ending subscriptions and new subscriptions.
-    by_type:
-        title: Purchased subscriptions by type
-        tooltip: The numbers are cumulative via all the subscription types that are being sold within given period of time
-    only_new_by_type:
-        title: Newly purchased subscriptions by type
-        tooltip: "Count of Newly purchased subscriptions by type (without automatic renewals)"
     started: Started subscriptions
-    access:
-        title: Subscription access
-        tooltip: Actual subscribers with selected access
 money:
     title: Money
     tooltip: The number describes the total sum of money collected via system

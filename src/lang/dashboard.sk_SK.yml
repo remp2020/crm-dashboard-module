@@ -105,16 +105,7 @@ subscriptions:
     difference:
         title: Pohyb predplatného
         tooltip: 'Kladné čísla informujú o začínajúcom predplatnom v daný deň, záporné čisla hovoria o skončenom predplatnom v daný deň.'
-    by_type:
-        title: Zakúpené predplatné
-        tooltip: Počet zakúpených predplatných podľa typu predplatného
-    only_new_by_type:
-        title: Novo zakúpené predplatné
-        tooltip: "Počet novo zakúpených predplatných podľa typu predplatného (bez automatických obnovení)"
     started: Začínajúce predplatné
-    access:
-        title: Rozdelenie predplatného podľa úrovne prístupu
-        tooltip: Zobrazuje počet aktívnych používateľov s predplatným s daným prístupom
 money:
     title: Suma peňazí
     tooltip: Suma všetkých platieb
