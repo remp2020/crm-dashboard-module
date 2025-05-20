@@ -19,7 +19,7 @@ class DashboardModule extends CrmModule
             'Dashboard',
             ':Dashboard:Dashboard:',
             'fa fa-tachometer-alt',
-            100
+            100,
         );
         $mainMenu->addChild($menuItem);
 
@@ -27,7 +27,7 @@ class DashboardModule extends CrmModule
             $this->translator->translate('dashboard.menu.measurements'),
             ':Dashboard:Measurements:default',
             'fa fa-chart-simple',
-            1600
+            1600,
         );
         $mainMenu->addChild($menuItem);
 

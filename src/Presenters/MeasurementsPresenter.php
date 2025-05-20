@@ -22,7 +22,7 @@ class MeasurementsPresenter extends AdminPresenter
     public string $dateTo;
 
     public function __construct(
-        MeasurementsRepository $measurementsRepository
+        MeasurementsRepository $measurementsRepository,
     ) {
         parent::__construct();
         $this->measurementsRepository = $measurementsRepository;
