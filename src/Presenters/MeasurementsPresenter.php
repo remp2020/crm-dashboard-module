@@ -36,7 +36,7 @@ class MeasurementsPresenter extends AdminPresenter
         $this->dateTo = $this->dateTo ?? DateTime::from('today')->format('Y-m-d');
     }
 
-    public function renderDefault(string $id = null)
+    public function renderDefault(?string $id = null)
     {
         if ($id) {
             $measurementRow = $this->measurementsRepository->findByCode($id);
